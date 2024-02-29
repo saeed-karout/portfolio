@@ -10,7 +10,7 @@ const Hero = () => {
     const handleDownload = () => {
 
         // قم بتحديد الملف PDF الذي ترغب في تنزيله
-        const pdfUrl = './cv/myCv.pdf';
+        const pdfUrl = './cv/mycv.pdf';
     
         // قم بإنشاء عنصر a للتنزيل
         const link = document.createElement('a');
