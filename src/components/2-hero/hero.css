@@ -106,7 +106,7 @@ p.sub-title{
     
 }
 @media (max-width:1200px) {
-    .animation{
+    .animation,.right-section{
         display: none;
     }
 }
