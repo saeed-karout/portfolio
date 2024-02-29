@@ -129,7 +129,16 @@ main section.right-section{
 
 
 
-
+.popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    z-index: 2;
+  }
 
 
 

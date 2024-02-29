@@ -8,8 +8,8 @@ export const myProjects = [
     imPath: "./images/portfolio.png",
     description:
       "build by react.js & Css",
-    link: "",
-    site: "",
+    link: "https://github.com/saeed-karout/portfolio",
+    site: "https://myportfolio-karout.netlify.app/",
     price: ""
 
   },
