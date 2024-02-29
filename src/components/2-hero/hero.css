@@ -1,0 +1,121 @@
+/* 
+------------------------
+table of contents
+------------------------
+
+
+1-left section
+1-right section
+
+*/
+
+
+
+
+/******************** 
+1-left section
+--------------------*/
+hero.left-section{
+    flex-grow: 1;
+    width: 65%;
+}
+
+
+.left-section .avatar{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 1px solid orange;
+    padding: 5px;
+    box-shadow: 2px 2px 14px rgba(128, 128, 128, 0.626) inset;
+    margin-top: 90px;
+}
+
+.perant-avatar.flex{
+    align-items: end;
+    gap: 0.6rem;
+    
+}
+
+.icon-verified{
+    color: var(--blue);
+    font-size: 1.1rem;
+}
+
+h2.title{
+    color: var(--title);
+}
+h1.title{
+    font-size: 2.6rem;
+    line-height: 3.2rem;
+    margin: 24px 0;
+    color: var(--title);
+}
+
+p.sub-title{
+    color: var(--subtitle);
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    margin-bottom: 30px;
+}
+.hero .all-icons{
+    justify-self: center;
+    align-items: center;
+}
+.hero .all-icons a{
+    font-size: 1rem;
+    gap: 1.5rem;
+    color: var(--title);
+    margin-bottom: 20px;
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    transition: 0.4s;
+    border: 1px solid var(--subtitle);
+    border-radius: 50%;
+    
+    
+}
+
+
+
+.hero .all-icons .icon:hover{
+    font-size: 1.2rem;
+    transition: 0.4s;
+    border: 1px solid var(--blue);
+    border-radius: 50%;
+    scale: 1.2;
+    background-color: black;
+    color: var(--blue);
+
+    
+}
+
+
+
+
+
+/******************** 
+2-right section  ==> animation
+--------------------*/
+
+
+.hero .right-section{
+    margin-top: 200px;
+    
+}
+@media (max-width:1200px) {
+    .animation{
+        display: none;
+    }
+}
+
+@media (max-width:800px) {
+    .all-icons{
+        display: flex;
+        flex-direction: column;
+
+        row-gap: 15px;
+    }
+}

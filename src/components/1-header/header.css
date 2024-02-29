@@ -1,0 +1,201 @@
+
+/* 
+
+table of contents
+
+1-Headers Design
+2-model 
+3-Button & icon
+4-responsive (media query)
+
+
+*/
+
+
+
+
+
+/******************** 
+1-Headers Design
+--------------------*/
+header{
+    
+    position: fixed;
+    top: 0;
+    width: 80%;
+    margin-bottom: 15px;
+    z-index: 222;
+
+}
+header ul{
+    gap: 12px;
+    
+}
+
+header ul li a{
+    color: var(--title);
+    opacity: 0.9;
+    font-size: 0.88rem;
+    font-weight: 500;
+  
+}
+
+
+header ul li a:hover{
+    color: var(--title);
+    opacity: 1;
+    font-size: 0.88rem;
+    font-weight: 500;
+    color: var(--blue );
+}
+
+header button {
+    font-size: 1.2rem;
+}
+
+header.flex nav{
+    background-color: var(--bgheader);
+    padding: 0.77rem 1.6rem;
+    border-radius: 55px;
+    box-shadow: 2px 2px 20px var(--subtitle);
+
+}
+
+header.flex{
+    margin-top: 1.2rem;
+    justify-content: space-between;
+    padding: 0 2.1rem;
+}
+
+/******************** 
+2-model 
+--------------------*/
+
+header button.menu{
+    display: none;
+}
+
+header .fixed{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    /*  or  inset: 0; */
+    z-index: 100;
+    background-color: rgba(58, 55, 55, 0.825);
+    backdrop-filter: blur(3px);
+}
+
+header .icon-wb_sunny{
+    color: rgb(255, 165, 0);
+}
+
+header .fixed ul.model{
+    animation: modelAny 0.7s 1;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    padding: 2rem 2rem;
+    background-color: var(--secondary);
+ 
+   
+    
+}
+
+@keyframes modelAny {
+    0% {scale: 0;}
+
+    70%{scale: 1.1;}
+    100% {
+        scale: 1;
+    }
+}
+
+
+header .fixed ul.model li{
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.7rem;
+    padding-top: 0.6rem;
+}
+
+header .fixed ul.model li:first-child{
+    text-align: right;
+    padding-bottom: 0.5rem;
+    padding-top: 0.2rem;
+}
+
+header .fixed ul.model li:last-child{
+    padding: none ;
+}
+
+header .fixed ul.model li a{
+    font-size: 1rem;
+}
+
+
+
+
+/******************** 
+3-Button & icon
+--------------------*/
+
+.iconButton{
+    background-color: var(--bgheader);
+    height: 2.4rem;
+    width: 2.4rem;
+    border-radius: 50%;
+    justify-content: center;
+    text-align: center;
+    margin-left: 4px;
+    color: var(--subtitle);
+    border: 1px solid rgba(250, 128, 114, 0.566);
+    transition: 0.2s;
+    box-shadow: 1px 1px 40px rgba(35, 35, 36, 0.165);
+}
+
+.icon-close{
+    font-size: 1.3rem;
+    color: var(--subtitle);
+    transition: 0.3s;
+}
+
+.icon-close:hover{
+    font-size: 1.3rem;
+    color: red;
+    rotate: 180deg;
+    
+}
+
+.iconButton:hover{
+    color: var(--title);
+    border: 1px solid rgba(250, 128, 114, 0.996) ;
+   
+}
+
+
+
+
+/******************** 
+4-responsive (media query)
+--------------------*/
+
+@media (max-width: 700px) {
+    header nav{
+        display: none;
+    }
+
+    header.flex{
+        margin-left: 20px;
+        padding: 0 0.1rem;
+        
+    }
+    
+    header button.menu{
+    display: block;
+    
+    }
+
+    
+}
