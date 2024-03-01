@@ -3,38 +3,39 @@ import './header.css'
 import i18n from '../../i18n';
 
 import { useTranslation } from 'react-i18next';
+import { Helmet } from 'react-helmet-async';
 const Header = () => {
     const [theme, setTheme] = useState(localStorage.getItem('currentMode') ?? 'dark');
     const [showModel, setShowModel] = useState(false);
     const { t, i18n } = useTranslation();
 
     const [currentLanguage, setCurrentLanguage] = useState(() => {
-      
+
         return localStorage.getItem('language') || 'en';
     });
 
 
-    
+
     const toggleLanguage = () => {
-      
+
         const newLanguage = currentLanguage === "en" ? "ar" : "en";
         setCurrentLanguage(newLanguage);
 
-        
+
         localStorage.setItem('language', newLanguage);
 
-       
+
     };
 
 
 
-    
+
     useEffect(() => {
         if (currentLanguage === 'ar') {
             document.body.dir = 'rtl';
-          } else {
+        } else {
             document.body.dir = 'ltr';
-          }
+        }
         i18n.changeLanguage(currentLanguage);
     }, [currentLanguage]);
 
@@ -55,7 +56,16 @@ const Header = () => {
     }, [theme])
 
     return (
+
+
+
         <header className='flex'>
+
+            <Helmet>
+                <title>MHD Saeed Karout Portfolio</title>
+                <meta name='description' content='This is a gallery of works by Muhammad Saeed Karout, which was built using React.js The project contains projects that I made and used, and added some additions such as lettele, i18n, dark/light mode, Library moon to icon, formSpre to email, Local Storage. and Helmet to SEO' />
+            </Helmet>
+
             <button onClick={() => {
                 setShowModel(true)
             }} className='menu icon-menu iconButton '>
@@ -92,12 +102,12 @@ const Header = () => {
                 {/* toggle Language */}
                 <div>
                     <button className='iconButton icon-translate' onClick={toggleLanguage}>
-                   
-                    </button>
-                   
-                    
 
-                    
+                    </button>
+
+
+
+
                 </div>
 
 
@@ -119,11 +129,11 @@ const Header = () => {
                             <button className='icon-close' onClick={() => { setShowModel(false) }}></button>
 
                         </li>
-                        
-                      
+
+
                         <li><a href="https://saeed-karout.github.io/my_cv/page2.html" target='_blank'>{t("header.cv")}</a></li>
 
-                       
+
                         <li><a href="#project">{t('header.project')}</a></li>
 
                         <li><a href="">About Me</a></li>
