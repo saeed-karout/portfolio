@@ -64,8 +64,10 @@ const Header = () => {
             <Helmet>
                 <title>MHD Saeed Karout Portfolio</title>
                 <meta name='description' content='This is a gallery of works by Muhammad Saeed Karout, which was built using React.js The project contains projects that I made and used, and added some additions such as lettele, i18n, dark/light mode, Library moon to icon, formSpre to email, Local Storage. and Helmet to SEO' />
+                <meta name="keywords" content="portfolio mohammad saeed karout, saeed karout , karout , محمد سعيد قاروط ,معرض اعمال محمد سعيد قاروط , سعيد قاروط" />
+                <meta name="author" content="mohammad saeed karout, محمد سعيد قاروط"></meta>
             </Helmet>
-        
+
             <button onClick={() => {
                 setShowModel(true)
             }} className='menu icon-menu iconButton '>
