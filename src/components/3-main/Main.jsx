@@ -59,6 +59,15 @@ const Main = () => {
         </button>
 
 
+        <button onClick={() => {
+
+          handleClick('MUI')
+
+        }}
+          className={currentActive === 'MUI' ? 'active' : null}>  Matrial ui
+        </button>
+
+
 
         <button onClick={() => {
 

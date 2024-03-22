@@ -139,6 +139,19 @@ export const myProjects = [
     price: ""
 
   },
+  {
+    id: "12",
 
+    projectTitle: "E-commerce MUI",
+     category: [ 'MUI','react' ],
+
+    imPath: "./images/MUI.png",
+    description:
+      "Full Stack backEnd Strapi \n frontEnd React & Mui ",
+    link: "https://github.com/saeed-karout/front-MUi-eco-",
+    site: "https://eco-muireact.netlify.app/",
+    price: ""
+
+  },
 
 ];
