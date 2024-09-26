@@ -121,7 +121,7 @@ const Main = () => {
 
         <AnimatePresence>
 
-          {arr.map((item) => {
+          {arr.sort().map((item) => {
             return (
               <motion.article
                 layout
