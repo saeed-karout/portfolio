@@ -153,5 +153,19 @@ export const myProjects = [
     price: ""
 
   },
+  {
+    id:"13",
+    
+    projectTitle: "app contracting",
+     category: [ 'vue.js' ],
+
+    imPath: "./images/SNC.png",
+    description:
+      "App Company Contracting in KSA  \n Frontend Vue.js + Vite + Tailwind  ",
+    link: "/",
+    site: "https://web.shamnet.com.sa/",
+    price: ""
+
+  }
 
 ];
