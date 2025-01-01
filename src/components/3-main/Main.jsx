@@ -144,7 +144,7 @@ const Main = () => {
                       <a href={item.link} className="icon-github"></a>
                     </div>
 
-                    <a className='link flex' href="">{t('main.more')}
+                    <a className='link flex'  href={item.site} target='_blank'>{t('main.more')}
                       <span style={{ alignSelf: 'center' }} className='icon-arrow-right'></span>
                     </a>
                   </div>
