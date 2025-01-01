@@ -12,7 +12,7 @@ export const myProjects = [
  
 
   {
-    id: "3",
+    id: "2",
 
     projectTitle: "Dashboard order system",
     category: ["bootstrap"],
@@ -25,7 +25,7 @@ export const myProjects = [
   },
 
   {
-    id: "4",
+    id: "3",
 
     projectTitle: "eCommerce Vuetify",
     category: ["framework",'vue.js'],
@@ -38,7 +38,7 @@ export const myProjects = [
     price: "",
   },
   {
-    id: "5",
+    id: "4",
 
     projectTitle: "Bulma Freash",
     category: ["bulma", "bootstrap"],
@@ -51,7 +51,7 @@ export const myProjects = [
   },
 
   {
-    id: "7",
+    id: "5",
 
     projectTitle: "My Cv",
     category: ["bootstrap", "css"],
@@ -63,48 +63,48 @@ export const myProjects = [
     price: "",
   },
   {
-    id: "8",
+    id: "6",
     projectTitle: "Stamina Trading",
     category: ["react"],
     imPath: "./images/stamina.png",
-    description: "",
+    description: "build by React.js + tailwind css + TypeScript",
     link: "https://web.stamina.plateau.media/",
     site: "https://web.stamina.plateau.media/",
     price: "",
   },
   {
-    id: "9",
+    id: "7",
     projectTitle: "Digital MENU",
     category: ["vue.js"],
     imPath: "./images/menu.png",
-    description: "",
+    description: "build by vue.js + tailwind css",
     link: "https://menu-babkisan.netlify.app/menu/",
     site: "https://menu-babkisan.netlify.app/menu/",
     price: "",
   },
   {
-    id: "10",
+    id: "8",
     projectTitle: "Restaurant babkisan",
     category: ["vue.js"],
     imPath: "./images/babkisan.png",
-    description: "",
+    description: "build by vue.js + tailwind css",
     link: "https://menu-babkisan.netlify.app/",
     site: "https://menu-babkisan.netlify.app/",
     price: "",
   },
  
   {
-    id: "11",
+    id: "9",
     projectTitle: "PLATEAU Agency",
     category: ["vue.js"],
     imPath: "./images/plateau.png",
-    description: "",
+    description: "build by vue.js + tailwind css",
     link: "https://plateau.media/",
     site: "https://plateau.media/",
     price: "",
   },
   {
-    id: "11",
+    id: "10",
 
     projectTitle: "Mini Market",
     category: ["bootstrap"],
@@ -115,7 +115,7 @@ export const myProjects = [
     price: "",
   },
   {
-    id: "12",
+    id: "11",
 
     projectTitle: "E-commerce MUI",
     category: ["MUI", "react"],
@@ -127,7 +127,7 @@ export const myProjects = [
     price: "",
   },
   {
-    id: "13",
+    id: "12",
 
     projectTitle: "app contracting",
     category: ['vue.js'],
@@ -141,7 +141,7 @@ export const myProjects = [
   },
 
    {
-    id: "8",
+    id: "13",
 
     projectTitle: "eCommerce Html Css", category: ['css'],
 
@@ -156,7 +156,7 @@ export const myProjects = [
 
 
   {
-    id: "10",
+    id: "14",
 
     projectTitle: "Simple Cv", category: ['css'],
 
@@ -170,7 +170,7 @@ export const myProjects = [
   },
 
   {
-    id: "2",
+    id: "15",
 
     projectTitle: "Moon project",
     category: ["css"],
