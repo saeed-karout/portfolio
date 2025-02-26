@@ -42,6 +42,8 @@ const Main = () => {
         </button>
 
 
+
+
         <button onClick={() => {
 
           handleClick('css')
@@ -49,6 +51,15 @@ const Main = () => {
         }}
           className={currentActive === 'css' ? 'active' : null}> HTML & Css
         </button>
+
+        <button onClick={() => {
+
+          handleClick('mern')
+
+          }}
+          className={currentActive === 'mern' ? 'active' : null}>  MERN Stack
+          </button>
+
 
         <button onClick={() => {
 

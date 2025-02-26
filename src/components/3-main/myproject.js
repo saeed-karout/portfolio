@@ -180,6 +180,40 @@ export const myProjects = [
     site: "https://saeed-karout.github.io/Animation-Earth/",
     price: "",
   },
+
+  {
+    id: "16",
+
+    projectTitle: "Real State Plateau",
+    category: ["mern"],
+    imPath: "./images/real-state.png",
+    description: "Mern stack User & Admin",
+    link: "https://realstate.plateau.media/",
+    site: "https://realstate.plateau.media/",
+    price: "",
+  },
+  {
+    id: "17",
+
+    projectTitle: "ASK",
+    category: ["vue.js"],
+    imPath: "./images/ask.png",
+    description: "ASK Vue.js + tailwind css",
+    link: "https://ask-test.netlify.app/",
+    site: "https://ask-test.netlify.app/",
+    price: "",
+  },
+  {
+    id: "18",
+
+    projectTitle: "MSK Blog Full Stack",
+    category: ["mern"],
+    imPath: "./images/blog.png",
+    description: "Blogs MERN Stack ADMIN & user + Redux",
+    link: "",
+    site: "",
+    price: "",
+  },
   // {
   //   id: "9",
 
