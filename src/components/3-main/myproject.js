@@ -68,8 +68,8 @@ export const myProjects = [
     category: ["react"],
     imPath: "./images/stamina.png",
     description: "build by React.js + tailwind css + TypeScript",
-    link: "https://web.stamina.plateau.media/",
-    site: "https://web.stamina.plateau.media/",
+    link: "https://site.stamina.com.sa/",
+    site: "https://site.stamina.com.sa/",
     price: "",
   },
   {
@@ -155,19 +155,19 @@ export const myProjects = [
   },
 
 
-  {
-    id: "14",
+  // {
+  //   id: "14",
 
-    projectTitle: "Simple Cv", category: ['css'],
+  //   projectTitle: "Simple Cv", category: ['css'],
 
-    imPath: "./images/SimpleCv.png",
-    description:
-      "Build by Just Html Css ",
-    link: "https://github.com/saeed-karout/simple-cv",
-    site: "https://saeed-karout.github.io/simple-cv/",
-    price: ""
+  //   imPath: "./images/SimpleCv.png",
+  //   description:
+  //     "Build by Just Html Css ",
+  //   link: "https://github.com/saeed-karout/simple-cv",
+  //   site: "https://saeed-karout.github.io/simple-cv/",
+  //   price: ""
 
-  },
+  // },
 
   {
     id: "15",
@@ -212,6 +212,17 @@ export const myProjects = [
     description: "Blogs MERN Stack ADMIN & user + Redux",
     link: "",
     site: "",
+    price: "",
+  },
+  {
+    id: "19",
+
+    projectTitle: "Company Profile Digital",
+    category: ["react"],
+    imPath: "./images/profileCompany.png",
+    description: "Profile company Portfolio React ",
+    link: "https://profile.plateau.media/",
+    site: "https://profile.plateau.media/",
     price: "",
   },
   // {
