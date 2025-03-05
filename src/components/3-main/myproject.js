@@ -78,8 +78,8 @@ export const myProjects = [
     category: ["vue.js"],
     imPath: "./images/menu.png",
     description: "build by vue.js + tailwind css",
-    link: "https://menu-babkisan.netlify.app/menu/",
-    site: "https://menu-babkisan.netlify.app/menu/",
+    link: "https://babkisanresturant.com/menu",
+    site: "https://babkisanresturant.com/menu",
     price: "",
   },
   {
@@ -88,8 +88,8 @@ export const myProjects = [
     category: ["vue.js"],
     imPath: "./images/babkisan.png",
     description: "build by vue.js + tailwind css",
-    link: "https://menu-babkisan.netlify.app/",
-    site: "https://menu-babkisan.netlify.app/",
+    link: "https://babkisanresturant.com/",
+    site: "https://babkisanresturant.com/",
     price: "",
   },
  
