@@ -57,7 +57,7 @@ return (
             <div>
             <a href="https://www.instagram.com/saeed_karout/"  target="_blank" className="icon icon-instagram"></a>
             <a href='https://github.com/saeed-karout' target="_blank" className="icon icon-github " ></a>
-            <a href="https://www.linkedin.com/in/saeed-karout/" className="icon icon-linkedin"></a>
+            <a href="https://www.linkedin.com/in/mohamad-saeed-karout/" className="icon icon-linkedin"></a>
 
             <a href='https://t.me/Saeed_karout'  target="_blank" className="icon icon-telegram"></a>
             </div>
