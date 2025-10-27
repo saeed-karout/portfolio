@@ -75,6 +75,7 @@ main section.right-section{
     transition: 0.3s;
     background-image: linear-gradient(rgba(255,255,255,0.05),rgba(255,255,255,0.04));
     padding: 5px;
+    min-height:290px;
 }
 .card img{
     border-radius: 5px;
