@@ -225,17 +225,47 @@ export const myProjects = [
     site: "https://profile.plateau.media/",
     price: "",
   },
-  // {
-  //   id: "9",
+  {
+    id: "9",
 
-  //   projectTitle: "Test flex", category: ['css'],
+    projectTitle: "ProStdios",
+    category: ['vue.js'],
 
-  //   imPath: "./images/testCss.png",
-  //   description:
-  //     "Build by Just Html Css ",
-  //   link: "https://github.com/saeed-karout/project-flex",
-  //   site: "https://saeed-karout.github.io/project-flex/",
-  //   price: ""
+    imPath: "./images/ProStidos.png",
+    description:
+      "Photography and editing company",
+    link: "https://prostdios.netlify.app/",
+    site: "https://prostdios.com/",
+    price: ""
 
-  // },
+  },
+  {
+    id: "9",
+
+    projectTitle: "Tessafold",
+    category: ['react'],
+
+    imPath: "./images/Tessafold.png",
+    description:
+      "Software development and artificial intelligence company",
+    link: "",
+    site: "http://tessafold.com/",
+    price: ""
+
+  },
+
+  {
+    id: "9",
+
+    projectTitle: "Zoundr Rights",
+    category: ['vue'],
+
+    imPath: "./images/rights.png",
+    description:
+        "Copyright Application Management System in Germany",
+    link: "",
+    site: "http://rights.zoundr.world/",
+    price: ""
+
+  },
 ];
