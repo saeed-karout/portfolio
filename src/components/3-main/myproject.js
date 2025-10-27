@@ -231,7 +231,7 @@ export const myProjects = [
     projectTitle: "ProStdios",
     category: ['vue.js'],
 
-    imPath: "./images/ProStidos.png",
+    imPath: "./images/Prostidos.png",
     description:
       "Photography and editing company",
     link: "https://prostdios.netlify.app/",
